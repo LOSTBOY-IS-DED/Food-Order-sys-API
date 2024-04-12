@@ -1,0 +1,32 @@
+user Registeration --> allow users to create an account 
+user Login --> enable users to login to their account 
+browse Restraunts --> display a list of restraunts 
+search Restraunt --> allow users to search for restraunt by state
+view menu --> show  the menu of a selected restraunt 
+add to cart --> allow the users to add items in their shopping cart 
+view cart --> display the contents of the shopping cart
+remove from cart --> allow users to remove items from the cart
+checkout --> enable users to place an order for the items in their shopping cart
+view orders --> allow users to view their history
+admin login --> enable admin users to login in to the admin panel 
+Manage Restraunt --> allow admin to add , edit or delete restraunts 
+Manage Orders --> allow admin to view and manage customer orders
+
+
+User Routes:
+/register - User registration
+/login - User login
+/restaurants - Browse restaurants
+/search - Search for restaurants by state
+/restaurant/{restaurant_id}/menu - View menu of a selected restaurant
+/cart - View shopping cart
+/cart/add - Add item to shopping cart
+/cart/remove - Remove item from shopping cart
+/checkout - Checkout and place an order
+/orders - View order history
+
+
+Admin Routes:
+/admin/login - Admin login
+/admin/restaurants/manage - Manage restaurants (add, edit, delete)
+/admin/orders/manage - Manage customer orders
